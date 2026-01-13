@@ -1,0 +1,454 @@
+{
+  "users": [
+    {
+      "id": 2,
+      "name": "Shubham",
+      "role": "team_lead",
+      "team": "Design",
+      "pin": "1000"
+    },
+    {
+      "id": 3,
+      "name": "Revanth",
+      "role": "project_lead",
+      "team": null,
+      "pin": "3333"
+    },
+    {
+      "id": 4,
+      "name": "Deepak",
+      "role": "team_lead",
+      "team": "Separation Mechanism",
+      "pin": "2000"
+    },
+    {
+      "id": 5,
+      "name": "Abhishek",
+      "role": "member",
+      "team": "Separation Mechanism",
+      "pin": "2001"
+    },
+    {
+      "id": 6,
+      "name": "Vishwanath",
+      "role": "member",
+      "team": "Separation Mechanism",
+      "pin": "2002"
+    },
+    {
+      "id": 7,
+      "name": "Raveendra",
+      "role": "team_lead",
+      "team": "Manufacturing/Methods",
+      "pin": "3000"
+    },
+    {
+      "id": 8,
+      "name": "Naveen",
+      "role": "member",
+      "team": "Manufacturing/Methods",
+      "pin": "3001"
+    },
+    {
+      "id": 9,
+      "name": "Maruthi",
+      "role": "team_lead",
+      "team": "Tooling",
+      "pin": "4000"
+    },
+    {
+      "id": 10,
+      "name": "Rohith",
+      "role": "member",
+      "team": "Tooling",
+      "pin": "4001"
+    },
+    {
+      "id": 11,
+      "name": "Srikanth",
+      "role": "member",
+      "team": "Tooling",
+      "pin": "4002"
+    },
+    {
+      "id": 12,
+      "name": "Nilesh",
+      "role": "member",
+      "team": "Tooling",
+      "pin": "4003"
+    },
+    {
+      "id": 13,
+      "name": "Animesh",
+      "role": "member",
+      "team": "Tooling",
+      "pin": "4004"
+    },
+    {
+      "id": 14,
+      "name": "Jeffin",
+      "role": "member",
+      "team": "Tooling",
+      "pin": "4005"
+    },
+    {
+      "id": 15,
+      "name": "Vignesh",
+      "role": "member",
+      "team": "Tooling",
+      "pin": "4006"
+    },
+    {
+      "id": 16,
+      "name": "Pratik",
+      "role": "team_lead",
+      "team": "PPC",
+      "pin": "5000"
+    },
+    {
+      "id": 17,
+      "name": "Vipul",
+      "role": "team_lead",
+      "team": "Program",
+      "pin": "6000"
+    },
+    {
+      "id": 18,
+      "name": "Trinadh",
+      "role": "member",
+      "team": "Program",
+      "pin": "6001"
+    },
+    {
+      "id": 19,
+      "name": "Venkatesan",
+      "role": "team_lead",
+      "team": "Quality",
+      "pin": "7000"
+    },
+    {
+      "id": 20,
+      "name": "Santhosh",
+      "role": "member",
+      "team": "Quality",
+      "pin": "7001"
+    },
+    {
+      "id": 21,
+      "name": "Janagar",
+      "role": "team_lead",
+      "team": "Purchases & Stores",
+      "pin": "8000"
+    },
+    {
+      "id": 22,
+      "name": "Esakki",
+      "role": "member",
+      "team": "Purchases & Stores",
+      "pin": "8001"
+    },
+    {
+      "id": 23,
+      "name": "Manoj",
+      "role": "member",
+      "team": "Purchases & Stores",
+      "pin": "8002"
+    },
+    {
+      "id": 24,
+      "name": "Kishore",
+      "role": "team_lead",
+      "team": "Finance",
+      "pin": "9000"
+    },
+    {
+      "id": 25,
+      "name": "Prashanth",
+      "role": "member",
+      "team": "Finance",
+      "pin": "9001"
+    },
+    {
+      "id": 26,
+      "name": "Rithwick",
+      "role": "team_lead",
+      "team": "Design",
+      "pin": "9999",
+      "roles": [
+        {
+          "role": "team_lead",
+          "team": "Design",
+          "project": "Project 1",
+          "pin": "9999"
+        }
+      ],
+      "project": "Project 1"
+    },
+    {
+      "id": 27,
+      "name": "Pavan",
+      "role": "member",
+      "team": "Configuration",
+      "pin": "0001"
+    },
+    {
+      "id": 28,
+      "name": "admin",
+      "role": "admin",
+      "team": null,
+      "pin": "2222"
+    },
+    {
+      "id": 29,
+      "name": "superadmin",
+      "role": "superadmin",
+      "team": null,
+      "pin": "1111"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "name": "Design Project",
+      "teams": [
+        "Design"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Separation Mechanism Project",
+      "teams": [
+        "Separation Mechanism"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Manufacturing/Methods Project",
+      "teams": [
+        "Manufacturing/Methods"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Tooling Project",
+      "teams": [
+        "Tooling"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "PPC Project",
+      "teams": [
+        "PPC"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Program Project",
+      "teams": [
+        "Program"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Quality Project",
+      "teams": [
+        "Quality"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Purchases & Stores Project",
+      "teams": [
+        "Purchases & Stores"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Finance Project",
+      "teams": [
+        "Finance"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Configuration Project",
+      "teams": [
+        "Configuration"
+      ]
+    }
+  ],
+  "uploads": [
+    {
+      "id": 3,
+      "project_id": 1,
+      "project_name": "Design Project",
+      "team": "Design",
+      "uploaded_by": "admin",
+      "filename": "e865a2181c304833847251be15073e03_Sample-BOM_JLCSMT (1).xlsx",
+      "original_name": "Sample-BOM_JLCSMT (1).xlsx",
+      "ts": "2025-10-22T05:47:12.308307",
+      "final": false
+    },
+    {
+      "id": 4,
+      "project_id": 1,
+      "project_name": "Design Project",
+      "team": "",
+      "uploaded_by": "admin",
+      "filename": "c32e18475c4e4be9853dea32b04caca4_Sample-BOM_JLCSMT.xlsx",
+      "original_name": "Sample-BOM_JLCSMT.xlsx",
+      "ts": "2025-10-22T05:47:29.842517",
+      "final": true
+    },
+    {
+      "id": 6,
+      "project_id": 7,
+      "project_name": "Quality Project",
+      "team": "Quality",
+      "uploaded_by": "Venkatesan",
+      "filename": "3193085dbc7742b9b9fc8a7c93a8591f_BOM_Template.xlsx",
+      "original_name": "BOM_Template.xlsx",
+      "ts": "2025-10-22T06:10:22.647321",
+      "final": false
+    },
+    {
+      "id": 7,
+      "project_id": 4,
+      "project_name": "Tooling Project",
+      "team": "Tooling",
+      "uploaded_by": "Jeffin Joshwa",
+      "filename": "368f8a05498c49fabef64374279c248f_02-00134-R1_BOM_USB5926.xls",
+      "original_name": "02-00134-R1_BOM_USB5926.xls",
+      "ts": "2025-10-22T06:11:27.440960",
+      "final": false
+    },
+    {
+      "id": 8,
+      "project_id": 4,
+      "project_name": "Tooling Project",
+      "team": "",
+      "uploaded_by": "Revanth",
+      "filename": "24c35e42b9254b86a7fb31c5fe7ecec1_Sample-BOM_JLCSMT (1).xlsx",
+      "original_name": "Sample-BOM_JLCSMT (1).xlsx",
+      "ts": "2025-10-22T06:23:16.995863",
+      "final": true
+    },
+    {
+      "id": 9,
+      "project_id": 4,
+      "project_name": "Tooling Project",
+      "team": "",
+      "uploaded_by": "Revanth",
+      "filename": "00001fc5811d4e42a5da65c0232bf30c_02-00134-R1_BOM_USB5926.xls",
+      "original_name": "02-00134-R1_BOM_USB5926.xls",
+      "ts": "2025-10-22T06:23:50.106623",
+      "final": true
+    },
+    {
+      "id": 10,
+      "project_id": 4,
+      "project_name": "Tooling Project",
+      "team": "Tooling",
+      "uploaded_by": "Rohith Kothuroju",
+      "filename": "929307f1736341ffa0ce1506aa07947e_DMD Team.xlsx",
+      "original_name": "DMD Team.xlsx",
+      "ts": "2025-10-22T06:25:09.149396",
+      "final": false
+    },
+    {
+      "id": 11,
+      "project_id": 1,
+      "project_name": "Design Project",
+      "team": "",
+      "uploaded_by": "admin",
+      "filename": "72ee7d4a22d44ef8bbebbb93de65c277_VK-1 SEPARATION SYSTEM BOM.xlsx",
+      "original_name": "VK-1 SEPARATION SYSTEM BOM.xlsx",
+      "ts": "2025-10-22T11:14:14.976166",
+      "final": true
+    },
+    {
+      "id": 12,
+      "project_id": 4,
+      "project_name": "Project 4",
+      "team": "Tooling",
+      "uploaded_by": "Vignesh SV",
+      "filename": "1bf017894ac444b0abed5e77bbd2e2fa_DMD Team.xlsx",
+      "original_name": "DMD Team.xlsx",
+      "ts": "2025-10-23T07:18:21.211294",
+      "final": false
+    },
+    {
+      "id": 14,
+      "project_id": 1,
+      "project_name": "Project 1",
+      "team": "Design",
+      "uploaded_by": "admin",
+      "filename": "f27e2be4a14841108f4bddb928cea6fb_DMD Team.xlsx",
+      "original_name": "DMD Team.xlsx",
+      "ts": "2025-10-23T07:24:52.052758",
+      "final": false
+    },
+    {
+      "id": 17,
+      "project_id": 1,
+      "project_name": "Project 1",
+      "team": "Design",
+      "uploaded_by": "admin",
+      "filename": "2350981d68604a0ab924b8a4839ce3c3_DMD Team.xlsx",
+      "original_name": "DMD Team.xlsx",
+      "ts": "2025-10-23T07:25:11.076800",
+      "final": false
+    }
+  ],
+  "messages": [
+    {
+      "from": "Shubham",
+      "to": "Rithwick",
+      "project": "Design Project",
+      "team": "Design",
+      "text": "hey",
+      "ts": "2025-10-21T10:23:57.649676"
+    },
+    {
+      "from": "Rithwick",
+      "to": null,
+      "project": "Design Project",
+      "team": "Design",
+      "text": "hey",
+      "ts": "2025-10-21T10:24:31.595484"
+    },
+    {
+      "from": "AdminUser",
+      "to": "Abhishek",
+      "project": "Separation Mechanism Project",
+      "team": "Separation Mechanism",
+      "text": "h",
+      "ts": "2025-10-21T10:30:38.246829"
+    },
+    {
+      "from": "admin",
+      "to": "Kishore",
+      "project": "Finance Project",
+      "team": "Finance",
+      "text": "hi",
+      "ts": "2025-10-21T11:22:23.459307"
+    },
+    {
+      "from": "admin",
+      "to": "Kishore",
+      "project": "Finance Project",
+      "team": "Finance",
+      "text": "hi",
+      "ts": "2025-10-21T11:22:27.573517"
+    },
+    {
+      "from": "admin",
+      "to": "Naveen Prasanth",
+      "project": "Manufacturing/Methods Project",
+      "team": "Manufacturing/Methods",
+      "text": "hi",
+      "ts": "2025-10-21T11:22:34.652114"
+    }
+  ]
+}
